@@ -8,8 +8,20 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Hello name='world' />
-        <Completed complete="1" total="100"/>
+        <Completed name="1"
+          complete="1" 
+          total="100" 
+          competecolor="rgb(46, 84, 155)" 
+          totalcolor="rgb(125, 185, 14)" 
+          fontcolor="white"
+        />
+        <Completed  name="2"
+          complete="1" 
+          total="100" 
+          competecolor="black" 
+          totalcolor="gray" 
+          fontcolor="white"
+        />
       </div>
     );
   }
