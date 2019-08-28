@@ -15,12 +15,21 @@ class App extends Component {
           totalcolor="rgb(125, 185, 14)" 
           fontcolor="white"
         />
+        <br/>
         <Completed  name="2"
           complete="1" 
           total="100" 
           competecolor="black" 
           totalcolor="gray" 
           fontcolor="white"
+        />
+        <br/>
+        <Completed  name="3"
+          complete="1" 
+          total="100" 
+          competecolor="red" 
+          totalcolor="white" 
+          fontcolor="black"
         />
       </div>
     );
