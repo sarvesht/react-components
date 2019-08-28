@@ -1,23 +1,15 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
+import Completed from './completion-state/completion';
 import './style.css';
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      name: 'React'
-    };
-  }
-
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
+        <Hello name='world' />
+        <Completed complete="1" total="100"/>
       </div>
     );
   }
